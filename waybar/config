@@ -10,7 +10,7 @@
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["tray" ,"hyprland/language" ,"clock"],
     "modules-left": ["wlr/taskbar"],
-    "output": ["DP-2"],
+    "output": ["eDP-1"],
     "clock": {
         "format": "{:%a %d %b %H:%M}",
         "tooltip": false
