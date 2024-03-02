@@ -8,7 +8,7 @@
     "margin-left": 20,
     "margin-right": 20,
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["tray" ,"hyprland/language" ,"clock"],
+    "modules-right": ["tray" ,"hyprland/language", "battery" ,"clock"],
     "modules-left": ["wlr/taskbar"],
     "output": ["eDP-1"],
     "clock": {
@@ -28,7 +28,7 @@
       "4": "",
       "5": "",
       "6": "",
-      "7": "",
+      "7": "",
       "8": "",
       "9": "",
       "urgent": "",
@@ -63,5 +63,17 @@
       "format-en": "en",
       "format-ru": "ru",
       "keyboard-name": "keychron-keychron-k2-pro"
+  },
+  "battery": {
+    "states": {
+          "warning": 30,
+          "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": "{capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-full": " {capacity}%",
+    "format-icons": ["", "", ""]
   }
 }
