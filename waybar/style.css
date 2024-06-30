@@ -23,7 +23,7 @@ window#waybar.solo {
 }
 
 #workspaces button {
-    padding:    0 5px;
+    padding:    0px 10px;
     color:      rgba(217, 216, 216, 0.900);
 }
 
