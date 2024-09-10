@@ -8,12 +8,12 @@
     "margin-left": 20,
     "margin-right": 20,
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["tray" ,"hyprland/language" ,"clock"],
+    "modules-right": ["tray" ,"hyprland/language" ,"custom/clock"],
     "modules-left": ["wlr/taskbar"],
     "output": ["DP-2"],
-    "clock": {
-        "format": "{:%a %d %b %H:%M}",
-        "tooltip": false
+    "custom/clock": {
+      "exec": "date +'%a %d %b %H:%M'",
+      "interval": 60
     },
     "hyprland/workspaces": {
         "format": "{icon}",
